@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Conversor</title>
+  </head>
+  <body>
+    <img class="logo" src="./assets/logo.gif" alt="logo-devclub-convert-money" />
+
+    <main>
+      <label>
+        Converter <b>de</b>
+        <select>
+          <option>R$ Real Brasileiro</option>
+        </select>
+      </label>
+
+      <label>
+        Converter <b>para</b>
+        <select class="currency-select">
+          <option value="dolar">US$ Dólar americano</option>
+          <option value="euro">€ Euro</option>
+          <option value="libra">£ Libra</option>
+          <option value="bitcoin">₿ Bitcoin</option>
+        </select>
+      </label>
+
+      <label>
+        Valor
+        <input class="input-currency" placeholder="R$ 10.000,00">
+      </label>
+
+      <!-- button --> 
+<button class="button">
+  <div class="icon">
+    <span class="text-icon hide">Icon</span>
+    <svg
+      class="css-i6dzq1"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+      fill="none"
+      stroke-width="2"
+      stroke="currentColor"
+      height="24"
+      width="24"
+      viewBox="0 0 24 24"
+    >
+      <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
+    </svg>
+  </div>
+  <span class="title"> Converter </span>
+  <div class="padding-left hide">
+    <div class="padding-left-line">
+      <span class="padding-left-text">Left Padding</span>
+    </div>
+  </div>
+  <div class="padding-right hide">
+    <div class="padding-right-line">
+      <span class="padding-right-text">Right Padding</span>
+    </div>
+  </div>
+  <div class="background hide">
+    <span class="background-text">Background</span>
+  </div>
+  <div class="border hide">
+    <span class="border-text">Border Radius</span>
+  </div>
+</button>
+        <!--fim butto-->
+
+
+
+      <section>
+        <div class="currency-box">
+            <img src="./assets/real.png" alt="logo-moeda-a-converter">
+            <p class="currency">Real</p>
+            <p class="currency-value-to-convert">R$ 0,00</p>
+        </div>
+
+        <img class="arrow-img" src="./assets/arrow.png" alt="seta">
+
+         <div class="currency-box">
+            <img class="currency-img" src="./assets/dollar.png" alt="logo-moeda-convertida">
+            <p class="currency" id="currency-name">Dólar americano</p>
+            <p class="currency-value">US$ 0.0</p>
+        </div>
+      </section>
+    </main>
+
+  </body>
+  <script src="./scripts.js"></script>
+  
+</html>
