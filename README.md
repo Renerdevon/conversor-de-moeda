@@ -8,8 +8,6 @@ O desafio inicial era criar um conversor de moedas entre **Dólar e Euro**, mas 
 ## 📸 Demonstração  
   <img src="https://github.com/Renerdevon/conversor-de-moeda/blob/main/assets/Screenshot%20at%20Sep%2007%2014-35-47.png?raw=true">
 
-### Conversão em Bitcoin  
-![Imagem do projeto](./assets/preview2.png)  
 
 ---
 
@@ -29,10 +27,3 @@ O desafio inicial era criar um conversor de moedas entre **Dólar e Euro**, mas 
 ✅ Utilização da **Intl.NumberFormat** para exibir moedas de diferentes países com a formatação correta  
 ✅ Organização do código em funções reutilizáveis (`convertValues` e `changeCurrency`)  
 
----
-
-## 🚀 Como executar o projeto  
-
-1. Clone o repositório  
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
