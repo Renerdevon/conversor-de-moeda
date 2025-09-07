@@ -6,7 +6,7 @@ O desafio inicial era criar um conversor de moedas entre **Dólar e Euro**, mas 
 ---
 
 ## 📸 Demonstração  
-  
+  <img src="https://github.com/Renerdevon/conversor-de-moeda/blob/main/assets/Screenshot%20at%20Sep%2007%2014-35-47.png?raw=true">
 
 ### Conversão em Bitcoin  
 ![Imagem do projeto](./assets/preview2.png)  
